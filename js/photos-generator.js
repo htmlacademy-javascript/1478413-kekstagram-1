@@ -22,4 +22,4 @@ function makeUserPhoto () {
   };
 }
 
-export {makeUserPhoto};
+export {makeUserPhoto, getComments};

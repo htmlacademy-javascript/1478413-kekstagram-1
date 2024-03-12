@@ -4,3 +4,5 @@ import {createAllPicture} from './miniatures.js';
 
 const generateArrayPhoto = Array.from({length: PHOTOS_COUNT}, makeUserPhoto);
 createAllPicture(generateArrayPhoto);
+
+export {generateArrayPhoto};
